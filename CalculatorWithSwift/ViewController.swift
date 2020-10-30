@@ -42,12 +42,12 @@ final class ViewController: UIViewController {
     // MARK: See result afrer operation
     @IBAction func equalBtn(_ sender: Any) {
         
-        if fisrt.count > 0 {
-        second = userInput
-       
-        var fisrtInput = 0.0
-        var secondInput = 0.0
-        fisrtInput = Double(fisrt)!
+        if fisrt.count > 0 { // isEmpty
+            second = userInput
+            
+            var fisrtInput = 0.0
+            var secondInput = 0.0
+            fisrtInput = Double(fisrt)! // moje da gramne
             secondInput = Double(second) ?? 0
             
             
